@@ -1,6 +1,6 @@
 #!/bin/bash
 export EXPERIMENT_NAME=103
-export MODEL_PATH="/public/huangqidong/.cache/huggingface/diffusers/models--stabilityai--stable-diffusion-2-1-base/snapshots/5ede9e4bf3e3fd1cb0ef2f7a3fff13ee514fdf06"
+export MODEL_PATH="./stable-diffusion/stable-diffusion-2-1-base"
 export CLASS_DIR="data/class-person"
 export INSTANCE_DIR="data/CelebA-HQ/$EXPERIMENT_NAME/set_A"
 export DREAMBOOTH_OUTPUT_DIR="dreambooth-outputs/clean/CelebA-HQ/$EXPERIMENT_NAME"
