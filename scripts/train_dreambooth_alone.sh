@@ -1,6 +1,6 @@
 #!/bin/bash
 export EXPERIMENT_NAME=103
-export MODEL_PATH="./stable-diffusion/stable-diffusion-2-1-base"
+export MODEL_PATH="stabilityai/stable-diffusion-2-1-base"
 export CLASS_DIR="data/class-person"
 export INSTANCE_DIR="data/CelebA-HQ/$EXPERIMENT_NAME/set_A"
 export DREAMBOOTH_OUTPUT_DIR="dreambooth-outputs/clean/CelebA-HQ/$EXPERIMENT_NAME"
