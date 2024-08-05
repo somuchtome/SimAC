@@ -1,3 +1,4 @@
+export EXPERIMENT_NAME=103
 export MODEL_PATH="./stable-diffusion/stable-diffusion-2-1-base"
 export CLEAN_TRAIN_DIR="data/CelebA-HQ/$EXPERIMENT_NAME/set_A" 
 export CLEAN_ADV_DIR="data/CelebA-HQ/$EXPERIMENT_NAME/set_B"
